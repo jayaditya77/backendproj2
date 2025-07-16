@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+    }
+  </style>
+</head>
+<body>
+  <div class="w-full min-h-screen bg-zinc-900 text-white p-10 rounded-md ">
+    <form action="/register" method="post">
+        <h3 class="text-3xl mb-5">Create An Account</h3>
+      <input class="px-3 py-2 rounded-md text-white bg-transparent border-2 border-zinc-800 outline-none rounded" type="text" placeholder="name" name="name">
+      <input class="px-3 py-2 rounded-md text-white bg-transparent border-2 border-zinc-800 outline-none rounded" type="text" placeholder="username" name="username">
+      <input class="px-3 py-2 rounded-md text-white bg-transparent border-2 border-zinc-800 outline-none rounded" type="number" placeholder="age" name="age">
+      <input class="px-3 py-2 rounded-md text-white bg-transparent border-2 border-zinc-800 outline-none rounded" type="text" placeholder="email" name="email">
+      <input class="px-3 py-2 rounded-md text-white bg-transparent border-2 border-zinc-800 outline-none rounded" type="password" placeholder="password" name="password">
+      <input class="px-3 py-2 rounded-md text-white bg-blue-500 border-2 border-zinc-800 outline-none rounded cursor-pointer hover:bg-zinc-800 transition" type="submit" value="Create Account">
+    </form>
+  </div>
+</body>
+</html>
+
+
